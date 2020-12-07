@@ -98,7 +98,7 @@ button.slick-prev{
     background-image: url("/img/anterior.png");
     position: absolute;
     z-index: 9;
-    top: 35%;
+    top: 40%;
     left: 14%;
 }
 button.slick-next{
@@ -110,7 +110,7 @@ button.slick-next{
     background-image: url("/img/next.png");
     position: absolute;
     z-index: 9;
-    top: 35%;
+    top: 40%;
     right: 14%;
 }
 .slick-list {
