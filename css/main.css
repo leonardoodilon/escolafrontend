@@ -22,7 +22,7 @@ main{
     float: left;
 }
 .redes-sociais ul li{
-    margin-left: 15px;
+    margin-left: 26px;
   display: inline-block; 
   float: left; 
   list-style: none;
@@ -47,7 +47,15 @@ main{
     list-style: none;
     color: #8b8b8b;
     margin-left: 15px;
+    height: 50px;
 
+}
+.menu ul li:hover{
+    border-bottom: 3px solid #00bac6;
+
+}
+.menu ul li a:hover{
+    color: #00bac6;
 }
 .menu ul li a{   
     color: #8b8b8b;
@@ -73,11 +81,42 @@ main{
     height: 36px;
     padding: 12px;
     width: 190px;
-    background-position: 95%;
+    background-position: 96%;
     border:1px solid #8b8b8b;
 }
 .col-100{
-    width: 100%;
+    width:100%;
     float: left;
     position: relative;
 }
+button.slick-prev{
+    width: 25px;    
+    height: 51px;
+    font-size: 0px;
+    background-color: transparent;
+    border: none;
+    background-image: url("/img/anterior.png");
+    position: absolute;
+    z-index: 9;
+    top: 35%;
+    left: 190;
+}
+button.slick-next{
+    width: 25px;    
+    height: 51px;
+    font-size: 0px;
+    background-color: transparent;
+    border: none;
+    background-image: url("/img/next.png");
+    position: absolute;
+    z-index: 9;
+    top: 35%;
+    right: 190;
+}
+slider-principal.img{
+    float: none;
+    min-height: 10px;
+    
+    
+}
+
