@@ -11,7 +11,7 @@ ul{
     background-color: #252323;
     height: 60px;
 }
-main{
+main,.content{
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -99,7 +99,7 @@ button.slick-prev{
     position: absolute;
     z-index: 9;
     top: 35%;
-    left: 190;
+    left: 14%;
 }
 button.slick-next{
     width: 25px;    
@@ -111,12 +111,49 @@ button.slick-next{
     position: absolute;
     z-index: 9;
     top: 35%;
-    right: 190;
+    right: 14%;
 }
-slider-principal.img{
-    float: none;
-    min-height: 10px;
-    
-    
+.slick-list {
+    width: 100%!important;
 }
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button{
+    font-size: 0px;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    background: transparent;
+    width: 20px;
+    height: 20px;
+    cursor: pointer ;
+    
+
+}
+.slick-dots{
+    margin:0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%; 
+    top: 600px;  
+      
+}
+.slick-dots li{
+    padding-left: 10px;
+    display: inline-block;
+}
+.slick-slide {
+    float: left;
+    min-height: 1px;
+}
+li.slick-active button{
+    background:#00bac6;
+
+
+
+}
+
+
+
 
