@@ -128,15 +128,13 @@ button.slick-next{
     width: 20px;
     height: 20px;
     cursor: pointer ;
-    
-
 }
 .slick-dots{
     margin:0 auto;
     width: 50%;
     position: absolute;
     left: 50%; 
-    top: 600px;  
+    top: 411px;  
       
 }
 .slick-dots li{
